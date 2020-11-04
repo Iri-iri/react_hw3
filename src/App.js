@@ -1,12 +1,10 @@
 import React from "react";
 import './App.css';
-import data from './data.json'
 import Italic from "./Tasks/Italic";
 import Square from "./Tasks/Square";
-import IsSignedln from "./Tasks/IsSignedln"
+import IsSignedln from "./Tasks/IsSignedln";
+import Guys from "./Tasks/Guys"
 
-
-console.log (data)
 
 function App() {
   return (
@@ -18,6 +16,7 @@ function App() {
         <Square label="small" cssClass="small_square"></Square>
     
       <IsSignedln />
+      <Guys />
     </div>
   );
 }

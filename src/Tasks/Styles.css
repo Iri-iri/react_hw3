@@ -31,3 +31,8 @@ button {
   padding: 10px;
   cursor: pointer;
 }
+
+.abs {
+  margin: 10px 50px;
+  border: 1px solid black;
+}
