@@ -25,3 +25,9 @@
   border: 2px solid black;
   margin: 0 auto;
 }
+
+button {
+  margin: 20px auto;
+  padding: 10px;
+  cursor: pointer;
+}
