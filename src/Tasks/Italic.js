@@ -9,14 +9,14 @@ class Italic extends React.Component {
   };
 
   font = () => {
-    this.setState(this.state.italic ? { italic: false } : { italic: true });
+    this.setState({ italic: !this.state.italic });
   };
 
   render() {
     return (
       <div className="Italic">
         <p
-          className={this.state.italic === true ? "cursive" : " "}
+          className={this.state.italic ? "cursive" : " "}
           onClick={this.font}
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
