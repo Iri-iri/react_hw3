@@ -7,7 +7,7 @@ class IsSignedln extends React.Component {
   };
 
   sign = () => {
-    this.setState({ isSignedln: true });
+    setTimeout(() => { this.setState({ isSignedln: true }) }, 3000);
   };
 
   render() {
@@ -16,7 +16,7 @@ class IsSignedln extends React.Component {
         {this.state.isSignedln ? (
           <p>Hello user</p>
         ) : (
-          <button onClick={setTimeout(this.sign, 3000)}>Sign in</button>
+          <button onClick={this.sign}>Sign in</button>
         )}
       </div>
     );
