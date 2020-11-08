@@ -36,3 +36,8 @@ button {
   margin: 10px 50px;
   border: 1px solid black;
 }
+
+input {
+  margin: 20px;
+  padding: 5px;
+}

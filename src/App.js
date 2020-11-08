@@ -4,7 +4,8 @@ import Italic from "./Tasks/Italic";
 import Square from "./Tasks/Square";
 import IsSignedln from "./Tasks/IsSignedln";
 import Guys from "./Tasks/Guys";
-import Number from "./Tasks/Number"
+import Number from "./Tasks/Number";
+import Input from "./Tasks/Input"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <IsSignedln />
       <Guys />
       <Number />
+      <Input />
     </div>
   );
 }
