@@ -12,7 +12,7 @@ class IsSignedln extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='btn'>
         {this.state.isSignedln ? (
           <p>Hello user</p>
         ) : (
