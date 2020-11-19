@@ -86,3 +86,19 @@ nav a {
     transform: rotate(360deg);
   }
 }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 0 auto;
+}
+
