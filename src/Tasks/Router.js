@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+
 import IsSignedln from './IsSignedln';
 import Square from './Square';
 import Italic from './Italic';
@@ -7,6 +8,8 @@ import Guys from './Guys';
 import Number from './Number';
 import Input from './Input';
 import Loader from './Loader';
+import FigureRoute from './FigureRoute';
+
 import './Styles.css';
 
 class Navigator extends Component {
@@ -25,6 +28,7 @@ class Navigator extends Component {
           <Link to='/number'>Number</Link>
           <Link to='/input'>Input</Link>
           <Link to='/loader'>Loader</Link>
+          <Link to='/figure'>Figures</Link>
         </nav>
 
         <Switch>
@@ -56,6 +60,10 @@ class Navigator extends Component {
 
           <Route path='/loader'>
             <Loader />
+          </Route>
+
+          <Route path='/figure'>
+            <FigureRoute />
           </Route>
 
           <Route path='/'>
